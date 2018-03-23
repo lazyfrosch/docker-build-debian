@@ -1,4 +1,4 @@
-FROM i386/debian:jessie
+FROM i386/debian:wheezy
 
 RUN apt-get update \
  && apt-get upgrade -y
