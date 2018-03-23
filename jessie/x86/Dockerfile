@@ -1,7 +1,7 @@
 FROM i386/debian:jessie
 
-RUN apt update \
- && apt upgrade -y
+RUN apt-get update \
+ && apt-get upgrade -y
 
 RUN apt-get install -y \
   sudo wget curl tar expect git \
